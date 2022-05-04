@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.clear{
+    clear: both;
+}
+.container{
+    width: 1300px;
+    margin: auto;
+}
+nav{
+    width: 100%;
+    padding: 15px;
+}
+nav h1{
+    float: left;
+    color: rgb(104, 101, 101);
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 30px;
+    color: rgb(104, 101, 101);
+    font-weight: bold;
+}
+header{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    text-align: center;
+    padding-top: 400px;
+    color: aliceblue;
+}
+.display-1{
+    font-size: 3rem;
+}
+header .before{
+    font-size: 20px;
+    position: relative;
+}
+.before::before{
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: coral;
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    /* right:925px;
+    bottom: 340px; */
+    margin-bottom: 80px;
+}
+header a{
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: coral;
+    color: aliceblue;
+    border-radius:30px ;
+}
+#find{
+    width: 100%;
+    height: 400px;
+    background-color: coral;
+    text-align: center;
+    padding-top: 120px;
+    color: aliceblue;
+}
+#find a{
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: aliceblue;
+    color: black;
+    border-radius:30px ;
+}
+#find .before{
+    font-size: 20px;
+    position: relative;
+}
+#find .before::before{
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    /* right:925px;
+    bottom: 340px; */
+    margin-bottom: 80px;
+}
